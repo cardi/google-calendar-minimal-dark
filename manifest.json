@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Google Calendar Minimal Dark Theme",
+  "version": "1.0.0",
+  "description": "Minimal and dark theme for Google Calendar",
+  "permissions": [ "https://calendar.google.com/*" ],
+  "content_scripts": [
+    {
+      "matches": ["https://calendar.google.com/*"],
+      "css": ["cal.css"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
