@@ -6,9 +6,6 @@ Google Calendar.
 It's recommended that you become familiar with keyboard shortcuts to
 navigate through the different views. 
 
-There is currently no "toggle" for enabling/disabling the CSS. Maybe it
-will be implemented in the future.
-
 (One could also use a style manager, but this seems to incur the least
 overhead.)
 
@@ -18,3 +15,20 @@ overhead.)
 2. Check the "Developer Mode" checkbox
 3. Click on "Load unpacked extensions..."
 4. Select the directory containing this extension and click on "Select"
+
+## usage
+
+Style is injected by default after Google Calendar loads.
+
+Press `O` (`Shift` + `o`) to toggle the CSS.
+
+## changelog
+
+    2016-01-26  Calvin Ardi  <calvin@isi.edu>
+    * implement keyboard shortcut to toggle CSS
+    * move CSS injection to after document load using JavaScript to
+      support toggle.
+     
+    2016-01-25  Calvin Ardi  <calvin@isi.edu>
+    * modify and update CSS
+    * pack as a Chrome extension that injects CSS prior to DOM render
