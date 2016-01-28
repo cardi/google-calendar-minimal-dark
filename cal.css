@@ -7,6 +7,9 @@
   CHANGELOG
   =========
 
+  2016-01-28  Calvin Ardi  <calvin@isi.edu>
+  - change 'today' background color for better visibility
+
   2016-01-25  Calvin Ardi  <calvin@isi.edu>
   - "!important" due to the way Chrome injects CSS
   - "#fff" on various event titles
@@ -92,6 +95,10 @@ td.st-bg {
 td.st-dtitle {
     background-color: #000000 !important;
     color: #e6e6e6 !important;
+}
+
+td.st-bg.st-bg-today, td.st-dtitle.st-dtitle-today {
+    background-color: #222 !important;
 }
 
 td.st-dtitle.st-dtitle-today {

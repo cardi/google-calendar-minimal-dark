@@ -1,10 +1,11 @@
 # google-calendar-minimal-dark
 
-Simple extension that injects a minimal and dark theme CSS into 
-Google Calendar. 
+Simple extension that injects a minimal and dark theme CSS into
+Google Calendar.
 
 It's recommended that you become familiar with keyboard shortcuts to
-navigate through the different views. 
+navigate through the different views. The theme looks best for the
+"Month" view.
 
 (One could also use a style manager, but this seems to incur the least
 overhead.)
@@ -24,6 +25,9 @@ Press `O` (`Shift` + `o`) to toggle the CSS.
 
 ## changelog
 
+    2016-01-28  Calvin Ardi  <calvin@isi.edu>
+    * tweak CSS for better 'Today' visibility
+     
     2016-01-26  Calvin Ardi  <calvin@isi.edu>
     * implement keyboard shortcut to toggle CSS
     * move CSS injection to after document load using JavaScript to
