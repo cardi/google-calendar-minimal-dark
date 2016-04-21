@@ -7,6 +7,10 @@
   CHANGELOG
   =========
 
+  2016-04-21  Calvin Ardi  <calvin@isi.edu>
+  - removed padding for all day events; messed up rowspans
+  - change background color for all day events
+
   2016-01-28  Calvin Ardi  <calvin@isi.edu>
   - change 'today' background color for better visibility
 
@@ -62,9 +66,9 @@
 }
 
 .st-c .rb-n {
-    background-color: #012 !important;
+    background-color: #0000bd !important;
     border: gray !important;
-    padding: 10px !important;
+    padding: 2px 9px !important;
 }
 
 .st-dtitle {
