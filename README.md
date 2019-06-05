@@ -27,7 +27,19 @@ Style is injected by default after Google Calendar loads.
 
 Press `O` (`Shift` + `o`) to toggle the CSS.
 
+## css stylesheet
+
+The CSS stylesheet is created and maintained by [pyxeler][pyxeler]
+(licensed under [`cc-by-sa-4.0`][cc-by-sa-4.0]), which I've further
+modified for my preferences.
+
+[pyxeler]: https://github.com/pyxelr/Dark_Google_Calendar
+[cc-by-sa-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
+
 ## changelog
+
+    2019-06-05  Calvin Ardi  <calvin@isi.edu>
+    * uses a modified CSS from @pyxelr
 
     2019-05-08  Calvin Ardi  <calvin@isi.edu>
     * update LICENSE to cc0-1.0
@@ -35,16 +47,17 @@ Press `O` (`Shift` + `o`) to toggle the CSS.
 
     2016-01-28  Calvin Ardi  <calvin@isi.edu>
     * tweak CSS for better 'Today' visibility
-     
+
     2016-01-26  Calvin Ardi  <calvin@isi.edu>
     * implement keyboard shortcut to toggle CSS
     * move CSS injection to after document load using JavaScript to
       support toggle.
-     
+
     2016-01-25  Calvin Ardi  <calvin@isi.edu>
     * modify and update CSS
     * pack as a Chrome extension that injects CSS prior to DOM render
 
 ## LICENSE
 
-[CC0 1.0 Universal](./LICENSE)
+* stylesheet: [CC BY-SA 4.0][cc-by-sa-4.0]
+* everything else: [CC0 1.0 Universal](./LICENSE)

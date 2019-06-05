@@ -1,7 +1,7 @@
 (function(){
 
 var inject  = document.createElement("link");
-inject.href = chrome.extension.getURL("cal.css");
+inject.href = chrome.extension.getURL("Style.css");
 inject.id   = "css-dark-theme";
 inject.rel  = "stylesheet";
 inject.type = "text/css";
