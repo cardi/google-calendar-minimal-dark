@@ -263,6 +263,9 @@
   .Jmftzc.EiZ8Dd
   {
     color: #fff; /* makes this easier to see */
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 200 !important;
   }
 
 /* Fix of current event colors and text in month view */
@@ -306,7 +309,7 @@
 /* Event color in "4 days" view" */
 .NlL62b.EfQccc.elYzab-cXXICe-Hjleke.EiZ8Dd.jKgTF {
     filter: invert(100%) hue-rotate(180deg) brightness(1.1) saturate(140%) contrast(105%)!important;
-    font-weight: bold!important;
+    font-weight: 200!important;
 }
 
 /* Color of events in the "Schedule" view */
@@ -384,7 +387,7 @@
 
 /* Font color of past events (week view) */
 .FAxxKc {
-    font-weight: 600!important;
+    font-weight: 200!important;
     color: /*[[color4]]*/
     !important;
 }
@@ -397,6 +400,8 @@
 .Jmftzc.K9QN7e.EiZ8Dd {
     color: /*[[color5]]*/
     !important;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 /* Check mark color in the left side bar */
@@ -455,4 +460,11 @@
   .GrxScd .g3dbUc.smECzc:focus {
     background-color: #0077bb !important;
 }
+
+/* Week view, all-day event titles */
+.yzifAd {
+  font-size: 14px;
+  font-weight: 200 !important;
+}
+
 /*}*/
